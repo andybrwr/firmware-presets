@@ -239,14 +239,3 @@ set tpa_breakpoint = 1250
     
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: Optional rates
-    #$ OPTION BEGIN (UNCHECKED): sugarK's rates
-        #$ INCLUDE: presets/4.3/rates/SugarK.txt
-    #$ OPTION END
-    
-    #$ OPTION BEGIN (UNCHECKED): Throttle curve for 6s racer
-        set thr_mid = 25
-        set thr_expo = 65
-     #$ OPTION END
-     
-#$ OPTION_GROUP END

@@ -1,0 +1,46 @@
+#$ TITLE: Bigspeed's 5" 6S Racer
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: bigspeed, 6S, race, 5", 5 inch
+#$ AUTHOR: Andrew Brower (bigspeedfpv)
+#$ DESCRIPTION: Common 5" racer setup
+
+#$ INCLUDE: presets/4.5/other/bigspeed_osd.txt
+#$ INCLUDE: presets/4.5/other/bigspeed_modes.txt
+#$ INCLUDE: presets/4.5/rates/bigspeed_rates.txt
+
+#$ INCLUDE: presets/4.5/vtx/HDZero.txt
+
+# TODO: move tune to own file
+
+#$ OPTION_GROUP BEGIN: Tune options
+    #$ OPTION BEGIN (UNCHECKED): Bosch (BMI) gyro - experimantal
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Dshot600
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Dshot300
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Dynamic idle for 2000kv 6s
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): New Spice ( mid 2024)
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: RC Links
+    #$ OPTION BEGIN (UNCHECKED): Tracer/ELRS 250Hz
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): ELRS 500Hz
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): ELRS 1000Hz
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Secret sauce stick feel 
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ INCLUDE: presets/4.5/tune/karate/karate_race.txt
+
+rxrange 0 988 2012
+rxrange 1 988 2012
+rxrange 2 988 2012
+rxrange 3 988 2012

@@ -1,0 +1,20 @@
+#$ TITLE: Bigspeed's OSD
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: bigspeed, osd, on screen display
+#$ AUTHOR: Andrew Brower (bigspeedfpv)
+#$ DESCRIPTION: Common OSD setup
+
+set osd_vbat_pos = 3558
+set osd_link_quality_pos = 2566
+set osd_tim_2_pos = 3590
+set osd_throttle_pos = 3080
+set osd_craft_name_pos = 2054
+set osd_warnings_pos = 14868
+set osd_disarmed_pos = 2549
+set osd_ready_mode_pos = 2359
+set osd_spec_logo_pos = 14374
+set osd_stat_bitmask = 3146028
+set osd_canvas_width = 50
+set osd_canvas_height = 18
