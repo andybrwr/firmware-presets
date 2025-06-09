@@ -18,3 +18,15 @@ set osd_spec_logo_pos = 14374
 set osd_stat_bitmask = 3146028
 set osd_canvas_width = 50
 set osd_canvas_height = 18
+
+#$ OPTION BEGIN (CHECKED): Extra OSD settings for KAACK
+    set extra_armed_warning = BAZINGA
+    set extra_100_throttle = WOA :3
+    set extra_fc_hot_warning = YEOWCH
+    set extra_turtle_mode_warning = PIBBLE!
+    set extra_low_battery_warning = WILTED_FLOWER
+    set extra_land_now_warning = FLOWER DIED
+    set extra_prearm_1 = IVE BEEN WAITING
+    set extra_prearm_2 = FOR LIKE 3 HOURS
+    set extra_prearm_3 = LETS FLY PLZ >_<
+#$ OPTION END

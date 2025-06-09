@@ -6,7 +6,10 @@
 #$ AUTHOR: Andrew Brower (bigspeedfpv)
 #$ DESCRIPTION: Common 5" racer setup
 
+#$ OPTION BEGIN (CHECKED): Extra OSD settings for KAACK
+#$ OPTION END
 #$ INCLUDE: presets/4.5/other/bigspeed_osd.txt
+
 #$ INCLUDE: presets/4.5/other/bigspeed_modes.txt
 #$ INCLUDE: presets/4.5/rates/bigspeed_rates.txt
 
