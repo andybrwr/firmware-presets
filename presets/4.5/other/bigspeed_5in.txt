@@ -43,7 +43,13 @@
 
 #$ INCLUDE: presets/4.5/tune/karate/karate_race.txt
 
-rxrange 0 988 2012
-rxrange 1 988 2012
-rxrange 2 988 2012
-rxrange 3 988 2012
+#$ OPTION BEGIN (CHECKED): CRSF Endpoints
+    rxrange 0 988 2012
+    rxrange 1 988 2012
+    rxrange 2 988 2012
+    rxrange 3 988 2012
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Persistent Stats
+    set stats_min_armed_time_s = 10
+#$ OPTION END
